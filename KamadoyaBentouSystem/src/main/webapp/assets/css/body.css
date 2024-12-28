@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+.header {
+	padding: 5px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.catchedBentouList {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.catchedBentouList li {
+	width: 31%;
+	list-style: none;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 1px solid #888;
+	padding: 10px;
+	margin: 10px;
+}
+
+.bentouDetailLink {
+	text-decoration: none;
+	color: #000;
+	width: 100%;
+}
+
+.bentouDetailLink img {
+	width: 100%;
+	height: auto;
+}
+
+.bentouImg {
+	width: 100%;
+}
+
+.bentouImg img {
+	width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+	.catchedBentouList li {
+		width: 44%;
+		margin-bottom: 20px;
+	}
+}
+
